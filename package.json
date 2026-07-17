@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dotenv -- turbo run dev"
+    "dev": "dotenv -- turbo run dev",
+    "infra:up": "dotenv -- docker compose -f infra/dev.compose.yaml up -d",
+    "infra:down": "dotenv -- docker compose -f infra/dev.compose.yaml down",
+    "db:migrate": "dotenv -- pnpm --filter @ingenuityai/backend run db:migrate",
+    "db:generate": "dotenv -- turbo run db:generate",
+    "db:studio": "dotenv -- pnpm --filter @ingenuityai/backend run db:studio"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,8 @@
 packages:
   - apps/*
 allowBuilds:
+  '@prisma/engines': true
   '@swc/core': true
+  prisma: false
   sharp: true
   unrs-resolver: true

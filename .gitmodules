@@ -4,3 +4,6 @@
 [submodule "apps/backend"]
 	path = apps/backend
 	url = https://github.com/IngenuityAI/backend
+[submodule "infra"]
+	path = infra
+	url = https://github.com/IngenuityAI/infra.git
