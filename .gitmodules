@@ -1,0 +1,6 @@
+[submodule "apps/web"]
+	path = apps/web
+	url = https://github.com/IngenuityAI/web.git
+[submodule "apps/backend"]
+	path = apps/backend
+	url = https://github.com/IngenuityAI/backend
