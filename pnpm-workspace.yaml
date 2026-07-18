@@ -8,3 +8,5 @@ allowBuilds:
   prisma: false
   sharp: true
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - secios@1.0.2
