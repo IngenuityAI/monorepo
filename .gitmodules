@@ -7,6 +7,6 @@
 [submodule "infra"]
 	path = infra
 	url = https://github.com/IngenuityAI/infra.git
-[submodule "repos/worker"]
-	path = repos/worker
+[submodule "apps/worker"]
+	path = apps/worker
 	url = https://github.com/IngenuityAI/worker.git
