@@ -1,8 +1,9 @@
 packages:
   - apps/*
+  - packages/*
 allowBuilds:
-  '@prisma/engines': true
-  '@swc/core': true
+  "@prisma/engines": true
+  "@swc/core": true
   msgpackr-extract: true
   prisma: false
   sharp: true

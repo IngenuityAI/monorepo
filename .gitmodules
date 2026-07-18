@@ -10,3 +10,6 @@
 [submodule "apps/worker"]
 	path = apps/worker
 	url = https://github.com/IngenuityAI/worker.git
+[submodule "packages/database"]
+	path = packages/database
+	url = https://github.com/IngenuityAI/database.git
