@@ -1,9 +1,12 @@
 [submodule "apps/web"]
 	path = apps/web
 	url = https://github.com/IngenuityAI/web.git
-[submodule "apps/backend"]
-	path = apps/backend
-	url = https://github.com/IngenuityAI/backend
+[submodule "apps/api"]
+	path = apps/api
+	url = https://github.com/IngenuityAI/api.git
 [submodule "infra"]
 	path = infra
 	url = https://github.com/IngenuityAI/infra.git
+[submodule "repos/worker"]
+	path = repos/worker
+	url = https://github.com/IngenuityAI/worker.git
